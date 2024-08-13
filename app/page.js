@@ -121,7 +121,7 @@ export default function Home() {
   // Translation function
   const translateMessage = async (text, targetLanguage) => {
     try {
-      const response = await fetch(`https://translation.googleapis.com/language/translate/v2?key=AIzaSyB-v346HBUQum6TBKQ-T-UkVFVDGovnpLg`, {
+      const response = await fetch(`https://translation.googleapis.com/language/translate/v2?key= your Key `, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
